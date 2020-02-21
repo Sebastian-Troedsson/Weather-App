@@ -25,7 +25,11 @@ const fetchData = () => {
 };
 
 /* Add eventlistener on input to send it with enter */
-searchInput.addEventListener('keypress', fetchData);
+searchInput.addEventListener('keyup', (e) => {
+  if (e.keyCode === 13) {
+    fetchData();
+  }
+});
 searchButton.addEventListener('click', fetchData);
 
 
