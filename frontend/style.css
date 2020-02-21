@@ -42,13 +42,51 @@ body {
   width: 20%;
   padding: 10px;
   font-size: 20px;
+  border-radius: 10px;
 }
 
 .search-button {
   margin-left: 10px;
   padding: 10px;
   font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
 }
+
+.information-card {
+  width: 1000px;
+  margin-top: 80px;
+  padding: 40px 80px;
+  background-color: #DDD;
+  opacity: 0.95;
+  color: #34293E;
+  border: #506B7F 2px solid;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.location-information {
+  font-size: 46px;
+  text-align: center;
+}
+
+.weather-information {
+  margin: 0 80px;
+  margin-top: 40px;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  margin: 15px 0;
+}
+
+
+
 /* .container {
   margin: 30px 300px;
 }
